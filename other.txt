@@ -1,3 +1,0 @@
-drop down in more
-div color shadow when hover
-pic change
