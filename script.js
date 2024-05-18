@@ -62,6 +62,12 @@ fetch('https://coding-week-2024-api.onrender.com/api/data')
                         apiEntry.textContent = data[i-1].type;
                     }
                 }
+                for (let i = 1; i < 5; i++) { 
+                    const apiEntry = document.getElementById(`reporter${i}`);
+                    if (apiEntry) {
+                        apiEntry.textContent = data[i-1].author;
+                    }
+                }
                 
 
 
